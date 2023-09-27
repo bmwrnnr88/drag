@@ -1,0 +1,24 @@
+#description {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#dropZone {
+  width: 200px;
+  height: 50px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 50px;
+}
+
+#wordsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.draggable {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: grab;
+}
